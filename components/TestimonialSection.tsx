@@ -1,12 +1,10 @@
 'use client'
 
 import { motion } from 'framer-motion'
-import { useState } from 'react'
 import { Star } from 'lucide-react'
 import Image from 'next/image'
 
 export default function TestimonialSection() {
-  const [activeIndex, setActiveIndex] = useState(0)
   
   const testimonials = [
     {
@@ -193,7 +191,7 @@ export default function TestimonialSection() {
               </p>
               <div className="bg-gray-50 p-6 border-l-4 border-gray-900">
                 <p className="text-gray-700 italic">
-                  "この製品に出会えて本当に良かった。今では鏡を見るのが楽しみです。"
+                  &quot;この製品に出会えて本当に良かった。今では鏡を見るのが楽しみです。&quot;
                 </p>
                 <p className="text-sm text-gray-600 mt-3">- 愛用者の声より</p>
               </div>
